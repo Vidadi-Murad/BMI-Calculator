@@ -1,6 +1,7 @@
 // BMI Calculator
 
 import java.util.Scanner;
+import java.util.Locale;
 
 
 public class App {
@@ -12,8 +13,18 @@ public class App {
         double weight;
         double height;
         double resultOp;
-
         
+        System.out.println("*********************");
+
+        System.out.print("Enter Your Weight:");
+        weight = scanner.nextDouble();
+
+        System.out.print("Enter Your Height:");
+        height = scanner.nextDouble();
+
+        resultOp = weight / (height * height);
+
+
 
 
 
