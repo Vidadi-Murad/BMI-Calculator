@@ -30,13 +30,13 @@ public class App {
         // IF-ELSE Statesments
         if(resultOp < 18.5 ){
           System.out.println("You are UnderWeight");
-        }else if(resultOp > 18.5 || resultOp < 24.9){
+        }else if(resultOp > 18.5 && resultOp < 24.9){
           System.out.println("You are Normal Weight");
-        }else if(resultOp > 25.0 || resultOp < 29.9){
+        }else if(resultOp > 25.0 && resultOp < 29.9){
           System.out.println("You are Overweight");
-        }else if(resultOp > 30.0 || resultOp < 34.9){
+        }else if(resultOp > 30.0 && resultOp < 34.9){
             System.out.println("You are Obesit Class I");
-        }else if(resultOp > 35.0 || resultOp < 39.9){
+        }else if(resultOp > 35.0 && resultOp < 39.9){
             System.out.println("You are Obesit Class II");
         }else{
             System.out.println("You are Obesity Class III");
